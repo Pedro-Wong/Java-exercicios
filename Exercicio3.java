@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio3 {
 
-	public static void main(String[] args) {
+	public void metodo() {
 		 Scanner scan = new Scanner(System.in);
 		 boolean validacao = false;
 		 int idade, salario;

@@ -6,6 +6,7 @@ public class MainClass {
 		
 		Exercicio e1 = new Exercicio();
 		Exercicio2 e2 = new Exercicio2();
+		Exercicio3 e3 = new Exercicio3();
 		
 		Scanner scan = new Scanner(System.in);
 		
@@ -52,6 +53,11 @@ public class MainClass {
 				System.out.println("Exercicio 2");
 				System.out.println("----------------------------------------------------------");
 				e2.metodo();
+				break;
+			case 3:
+				System.out.println("Exercicio 3");
+				System.out.println("----------------------------------------------------------");
+				e3.metodo();
 				break;
 			
 			default: System.out.println("Número de exercicio não é válido");
