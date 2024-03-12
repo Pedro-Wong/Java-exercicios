@@ -1,8 +1,8 @@
 package com.pedro.aula17;
 
-public class Exercicio6 {
+public class Exercicio6 implements Interface{
 
-	public static void main(String[] args) {
+	public void metodo() {
 		
 		
 		for(int i = 1; i <= 20; i++) {

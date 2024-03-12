@@ -2,7 +2,7 @@ package com.pedro.aula17;
 import java.util.Scanner;
 
 
-public class Exercicio2 {
+public class Exercicio2 implements Interface{
 
 	public void metodo() {
 		Scanner scan = new Scanner(System.in);
