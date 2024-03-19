@@ -28,8 +28,8 @@ public class Matriz2 {
 			}
 			System.out.println(matriz[5][y]);
 		}
-		System.out.println("maior número da linha 5 " + min);
-		System.out.println("menor número da linha 5 " + max);
+		System.out.println("maior número da linha 5: " + min);
+		System.out.println("menor número da linha 5: " + max);
 	}
 
 }
