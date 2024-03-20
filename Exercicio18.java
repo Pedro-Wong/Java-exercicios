@@ -1,9 +1,9 @@
 package com.pedro.aula17;
 import java.util.Scanner;
 
-public class Exercicio18 {
+public class Exercicio18 implements Interface{
 
-	public static void main(String[] args) {
+	public void metodo() {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Número1");

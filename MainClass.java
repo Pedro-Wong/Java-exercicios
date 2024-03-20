@@ -9,6 +9,13 @@ public class MainClass {
 		Exercicio3 e3 = new Exercicio3();
 		Exercicio4 e4 = new Exercicio4();
 		Exercicio6 e6 = new Exercicio6();
+		Exercicio7 e7 = new Exercicio7();
+		Exercicio11 e8 = new Exercicio11();
+		Exercicio18 e9 = new Exercicio18();
+		Matriz2 e10 = new Matriz2();
+		Matriz4 e11 = new Matriz4();
+		
+		
 		
 		Scanner scan = new Scanner(System.in);
 		boolean validacao2 = true;
@@ -74,6 +81,31 @@ public class MainClass {
 					System.out.println("Exercicio 6");
 					System.out.println("----------------------------------------------------------");
 					e6.metodo();
+					break;
+				case 7:
+					System.out.println("Exercicio 7");
+					System.out.println("----------------------------------------------------------");
+					e7.metodo();
+					break;
+				case 8:
+					System.out.println("Exercicio 8");
+					System.out.println("----------------------------------------------------------");
+					e8.metodo();
+					break;
+				case 9:
+					System.out.println("Exercicio 9");
+					System.out.println("----------------------------------------------------------");
+					e9.metodo();
+					break;
+				case 10:
+					System.out.println("Exercicio 10");
+					System.out.println("----------------------------------------------------------");
+					e10.metodo();
+					break;
+				case 11:
+					System.out.println("Exercicio 11");
+					System.out.println("----------------------------------------------------------");
+					e11.metodo();
 					break;
 				
 				default: System.out.println("Número de exercicio não é válido");

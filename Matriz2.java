@@ -1,8 +1,9 @@
 package com.pedro.aula17;
 import java.util.Random;
-public class Matriz2 {
 
-	public static void main(String[] args) {
+public class Matriz2 implements Interface{
+
+	public void metodo() {
 		
 		int [][] matriz = new int [10][10];
 		
